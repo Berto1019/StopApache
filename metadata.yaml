@@ -1,0 +1,8 @@
+name: "StopApache"
+description: "Turns Apache2 off"
+author: "Berto1019"
+tactic: "damage"
+input_parameters:
+  - name: StopApache
+    type: "system"
+    description: "Turns off apache2 using systemctl"
